@@ -31,3 +31,9 @@ body {
 a.nav-link:hover {
     color:royalblue !important;
 }
+
+@media screen and (max-width: 400px) {
+    .lead {
+        font-size: 15px;
+    }
+}
