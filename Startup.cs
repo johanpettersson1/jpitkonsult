@@ -71,6 +71,8 @@ namespace jpitkonsult
             else
             {
                 app.UseExceptionHandler("/Error");
+
+                app.UseHsts();
             }
 
             app.UseHttpsRedirection();
