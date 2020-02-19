@@ -32,8 +32,15 @@ a.nav-link:hover {
     color:royalblue !important;
 }
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 415px) {
     .lead {
         font-size: 15px;
     }
 }
+
+@media screen and (max-width: 415px) {
+    #copyright {
+        font-size: 3.5vw;
+    }
+}
+
