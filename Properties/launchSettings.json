@@ -22,14 +22,6 @@
       "environmentVariables": {
         "ASPNETCORE_ENVIRONMENT": "Development"
       }
-    },
-    "prod": {
-      "commandName": "Project",
-      "launchBrowser": true,
-      "applicationUrl": "http://www.jpitkonsult.se/",
-      "environmentVariables": {
-        "ASPNETCORE_ENVIRONMENT": "Production"
-      }
     }
   }
 }
