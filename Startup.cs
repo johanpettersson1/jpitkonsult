@@ -28,6 +28,8 @@ namespace jpitkonsult
         {
             services.AddRazorPages();
 
+            services.AddResponseCompression();
+
             if (CurrentEnvironment.IsProduction())
             {
                 //the following line adds the automatic renewal service.
@@ -74,6 +76,8 @@ namespace jpitkonsult
 
                 app.UseHsts();
             }
+
+            app.UseResponseCompression();
 
             app.UseHttpsRedirection();
 
