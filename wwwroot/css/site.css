@@ -50,103 +50,115 @@ a.nav-link:hover {
     }
 }
 
+.business {
+    width: 100%;
+}
+.pen {
+    width:100%;
+}
+.cherry {
+    width:100%;
+}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
     .business {
-        background-image: url('../business-600w.jpg');
+        content: url('../business-600w.jpg');
     }
     .pen {
-        background-image: url('../pen-600w.jpg');
+        content: url('../pen-600w.jpg');
     }
     .cherry {
-        background-image: url('../cherry-600w.jpg');
+        content: url('../cherry-600w.jpg');
     }
 }
 
 /* Small devices (portrait tablets and large phones, 600px and up) */
 @media only screen and (min-width: 600px) {
     .business {
-        background-image: url('../business-768w.jpg');
+        content: url('../business-768w.jpg');
     }
 
     .pen {
-        background-image: url('../pen-768w.jpg');
+        content: url('../pen-768w.jpg');
     }
 
     .cherry {
-        background-image: url('../cherry-768w.jpg');
+        content: url('../cherry-768w.jpg');
     }
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
 @media only screen and (min-width: 769px) {
     .business {
-        background-image: url('../business-992w.jpg');
+        content: url('../business-992w.jpg');
     }
 
     .pen {
-        background-image: url('../pen-992w.jpg');
+        content: url('../pen-992w.jpg');
     }
 
     .cherry {
-        background-image: url('../cherry-992w.jpg');
+        content: url('../cherry-992w.jpg');
     }
 }
 
 /* Large devices (laptops/desktops, 992px and up) */
 @media only screen and (min-width: 993px) {
     .business {
-        background-image: url('../business-1200w.jpg');
+        content: url('../business-1200w.jpg');
     }
 
     .pen {
-        background-image: url('../pen-1200w.jpg');
+        content: url('../pen-1200w.jpg');
     }
 
     .cherry {
-        background-image: url('../cherry-1200w.jpg');
+        content: url('../cherry-1200w.jpg');
     }
 }
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
 @media only screen and (min-width: 1201px) {
     .business {
-        background-image: url('../business-1920w.jpg');
+        content: url('../business-1920w.jpg');
     }
 
     .pen {
-        background-image: url('../pen-1920w.jpg');
+        content: url('../pen-1920w.jpg');
     }
 
     .cherry {
-        background-image: url('../cherry-1920w.jpg');
+        content: url('../cherry-1920w.jpg');
     }
 }
 
+/* Extra large devices (desktops, 1921px and up) */
 @media only screen and (min-width: 1921px) {
     .business {
-        background-image: url('../business-2560w.jpg');
+        content: url('../business-2560w.jpg');
     }
 
     .pen {
-        background-image: url('../pen-2560w.jpg');
+        content: url('../pen-2560w.jpg');
     }
 
     .cherry {
-        background-image: url('../cherry-2560w.jpg');
+        content: url('../cherry-2560w.jpg');
     }
 }
 
+/* Extra large devices (desktops, 2561px and up) */
 @media only screen and (min-width: 2561px) {
     .business {
-        background-image: url('../business.jpg');
+        content: url('../business.jpg');
     }
 
     .pen {
-        background-image: url('../pen.jpg');
+        content: url('../pen.jpg');
     }
 
     .cherry {
-        background-image: url('../cherry.jpg');
+        content: url('../cherry.jpg');
     }
 }
