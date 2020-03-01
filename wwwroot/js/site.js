@@ -5,10 +5,11 @@
 
 // Add scrollspy to <body>
 
-var offset = 127;
+var divId;
 
-$('.navbar li a').click(function (event) {
-    event.preventDefault();
-    $($(this).attr('href'))[0].scrollIntoView();
-    scrollBy(0, -offset);
+$('.nav-link').click(function () {
+    divId = $(this).attr('href');
+    $('html, body').animate({
+        scrollTop: $(divId).offset().top - 127
+    }, 250);
 });
