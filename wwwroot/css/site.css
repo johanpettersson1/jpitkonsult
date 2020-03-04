@@ -44,6 +44,11 @@ a.nav-link:hover {
     }
 }
 
+#githublink {
+    float:right;
+    color:white;
+}
+
 @media screen and (max-width: 500px) {
     #githublink {
         visibility:hidden;
